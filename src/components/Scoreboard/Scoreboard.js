@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const Scoreboard = ({ currentScore, bestScore }) => {
   return (
     <ScoreboardWrapper>
-      <CurrentScore>Current score: {currentScore}</CurrentScore>
-      <BestScore>Best score: {bestScore}</BestScore>
+      <CurrentScore>Puntuación actual: {currentScore}</CurrentScore>
+      <BestScore>Mejor puntuación: {bestScore}</BestScore>
     </ScoreboardWrapper>
   )
 }
